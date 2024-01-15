@@ -21,6 +21,7 @@ public class CalculatorTests
     [TestCase("", 0)]
     [TestCase(null, 0)]
     [TestCase("1", 1)]
+    [TestCase("5", 5)]
     [TestCase("1,2", 3)]
     public void Calculate_Always_ReturnsExpectedResult(string input, int expectedResult)
     {
